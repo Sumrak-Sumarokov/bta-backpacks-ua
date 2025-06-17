@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "betterwithbackpacks",
-  "version": "1.0.0",
+  "version": "$version",
   "icon": "icon.png",
   "name": "Better with Backpacks!",
   "description": "This mod aims to add simple backpacks to BTA.",
@@ -18,7 +18,7 @@
     "sources": ""
   },
 
-  "license": "MIT",
+  "license": "GPL3",
 
   "environment": "*",
   "entrypoints": {
@@ -37,9 +37,9 @@
   ],
 
   "depends": {
-    "minecraft": "*",
+    "minecraft": "~7.3",
     "fabricloader": ">=0.15.5",
-    "halplibe": ">=5.0.0"
+    "halplibe": ">=5.2.0"
   },
   "suggests": {
   }
