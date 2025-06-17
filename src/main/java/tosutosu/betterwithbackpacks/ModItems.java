@@ -1,6 +1,5 @@
 package tosutosu.betterwithbackpacks;
 
-import net.minecraft.client.render.item.model.ItemModel;
 import net.minecraft.core.item.Item;
 import tosutosu.betterwithbackpacks.item.ItemBackpack;
 import turniplabs.halplibe.helper.ItemBuilder;

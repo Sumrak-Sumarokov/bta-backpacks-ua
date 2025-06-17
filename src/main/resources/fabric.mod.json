@@ -22,8 +22,11 @@
 
   "environment": "*",
   "entrypoints": {
+    "beforeGameStart": [
+      "tosutosu.betterwithbackpacks.BetterWithBackpacks"
+    ],
     "initModels": [
-        "tosutosu.betterwithbackpacks.BetterWithBackpacks"
+      "tosutosu.betterwithbackpacks.BackpacksModels"
     ],
     "recipesReady": [
       "tosutosu.betterwithbackpacks.crafting.ModRecipes"
